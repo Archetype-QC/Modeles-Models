@@ -1,4 +1,4 @@
-id,Type,Soustype-Subtype,NbEtagesHorsSol-NbConditionedFloorsAboveGround,AnneeModele-ModelYear
+id,Type,Soustype-Subtype,NbEtagesHorsSol-NbFloorsAboveGround,AnneeModele-ModelYear
 1,UnifamilialDetache-SingleFamilyDetached,Pre-1945,1,2024
 2,UnifamilialDetache-SingleFamilyDetached,1946-1970,1,2024
 3,UnifamilialDetache-SingleFamilyDetached,1971-1985,1,2024
