@@ -1,2 +1,15 @@
-id,Type,Soustype-Subtype,Chauffage-Heating,Climatisation-Cooling,SurfaceTotalConditionee-TotalConditionedArea-m2,NbEtagesConditiones-NbConditionedFloors,AnneeModele-ModelYear,OS-version,Eplus-version
-1,Education,EcolePrimaire-PrimarySchool,Electricite-Electricity,False,1640,2,2023,3.7.0,23.2.0
+id,Type,Soustype1-Subtype1,Soustype2-Subtype2,AnneeModele-ModelYear
+1,Education,PetiteEcole-SmallSchool,NonVentile-NonVentilated,2024
+2,Education,EcoleMoyenne-MediumSchool,NonVentile-NonVentilated,2024
+3,Education,EcoleMoyenne-MediumSchool,Ventile-Ventilated,2024
+4,Education,GrandeEcole-LargeSchool,VentileEtConditionne-NonVentilatedAndConditioned,2024
+5,Bureau-Office,BasseHauteur-LowRise,Pre-1945,2024
+6,Bureau-Office,BasseHauteur-LowRise,1945-1983,2024
+7,Bureau-Office,BasseHauteur-LowRise,1983-2010,2024
+8,Bureau-Office,BasseHauteur-LowRise,Post-2010,2024
+9,Bureau-Office,MoyenneHauteur-MidRise,Pre-1945,2024
+10,Bureau-Office,MoyenneHauteur-MidRise,1945-1983,2024
+11,Bureau-Office,MoyenneHauteur-MidRise,1983-2010,2024
+12,Bureau-Office,MoyenneHauteur-MidRise,Post-2010,2024
+13,Bureau-Office,HauteHauteur-HighRise,Pre-1983,2024
+14,Bureau-Office,HauteHauteur-HighRise,Post-1983,2024
