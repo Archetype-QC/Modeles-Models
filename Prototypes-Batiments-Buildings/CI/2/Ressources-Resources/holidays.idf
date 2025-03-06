@@ -1,0 +1,56 @@
+
+RunPeriodControl:SpecialDays,
+    New Years Day,           !- Name
+    January 1,               !- Start Date
+    8,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+
+RunPeriodControl:SpecialDays,
+    Semaine de Relache,        !- Name
+    February 27,                  !- Start Date
+    5,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+RunPeriodControl:SpecialDays,
+    Easter,        !- Name
+    April 14,                  !- Start Date
+    4,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+RunPeriodControl:SpecialDays,
+    Journée des patriotes,          !- Name
+    May 22,  !- Start Date
+    1,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+RunPeriodControl:SpecialDays,
+    Fête nationale du Québec,            !- Name
+    June 24,      !- Start Date
+    1,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+RunPeriodControl:SpecialDays,
+    SummerBreak,             !- Name
+    July 1,                  !- Start Date
+    58,                      !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+RunPeriodControl:SpecialDays,
+    Fête du travail,               !- Name
+    1st Monday in September, !- Start Date
+    1,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+RunPeriodControl:SpecialDays,
+    Thanksgiving,            !- Name
+    2nd Monday in October,   !- Start Date
+    1,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+
+RunPeriodControl:SpecialDays,
+    Christmas,               !- Name
+    December 23,             !- Start Date
+    9,                       !- Duration {days}
+    Holiday;                 !- Special Day Type
+

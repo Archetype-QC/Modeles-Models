@@ -2,7 +2,7 @@ id,Type,Soustype1-Subtype1,Soustype2-Subtype2,AnneeModele-ModelYear
 1,Education,PetiteEcole-SmallSchool,NonVentile-NonVentilated,2024
 2,Education,EcoleMoyenne-MediumSchool,NonVentile-NonVentilated,2024
 3,Education,EcoleMoyenne-MediumSchool,Ventile-Ventilated,2024
-4,Education,GrandeEcole-LargeSchool,VentileEtConditionne-NonVentilatedAndConditioned,2024
+4,Education,GrandeEcole-LargeSchool,VentileEtConditionne-VentilatedAndConditioned,2024
 5,Bureau-Office,BasseHauteur-LowRise,Pre-1945,2024
 6,Bureau-Office,BasseHauteur-LowRise,1945-1983,2024
 7,Bureau-Office,BasseHauteur-LowRise,1983-2010,2024

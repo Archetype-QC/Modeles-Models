@@ -1,0 +1,83 @@
+!-   ===========  ALL OBJECTS IN CLASS: ENERGYMANAGEMENTSYSTEM ===========
+
+  EnergyManagementSystem:Sensor,
+    T1,                      !- Name
+    Classrooms_Th_FL1_01,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T2,                      !- Name
+    Offices_Th_FL1,      !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T3,                      !- Name
+    Classrooms_Th_FL1_02,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T4,                      !- Name
+    Classrooms_Th_FL2_01,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T5,                      !- Name
+    Classrooms_Th_FL2_02,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T6,                      !- Name
+    Classrooms_Th_FL2_03,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T7,                      !- Name
+    Classrooms_Th_FL2_04,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T8,                      !- Name
+    Classrooms_Th_FL2_05,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T9,                      !- Name
+    Classrooms_Th_FL2_06,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    T10,                     !- Name
+    Classrooms_Th_FL2_07,  !- Output:Variable or Output:Meter Index Key Name
+    Zone Mean Air Temperature;  !- Output:Variable or Output:Meter Name
+
+
+  EnergyManagementSystem:Sensor,
+    Tamb,                    !- Name
+    ,                        !- Output:Variable or Output:Meter Index Key Name
+    Site Outdoor Air Drybulb Temperature;  !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Sensor,
+    occ,                     !- Name
+    BLDG_OCC_SCH,  !- Output:Variable or Output:Meter Index Key Name
+    Schedule Value;   !- Output:Variable or Output:Meter Name
+
+  EnergyManagementSystem:Actuator,
+    V_sch,                   !- Name
+    Window_opening_fraction,  !- Actuated Component Unique Name
+    Schedule:Year,        !- Actuated Component Type
+    Schedule Value;          !- Actuated Component Control Type
+
+  EnergyManagementSystem:Program,
+    Natural_Ventilation_Control,  !- Name
+    IF ((T1+T2+T3+T4+T5+T6+T7+T8+T9+T10)/10 > 21.5) && (occ>0) && (Tamb<(T1+T2+T3+T4+T5+T6+T7+T8+T9+T10)/10) && (Tamb>16),  !- Program Line 1
+    SET V_sch = 0.1,         !- Program Line 2
+    ELSEIF ((T1+T2+T3+T4+T5+T6+T7+T8+T9+T10)/10 > 21.5) && (occ>0) && (Tamb<(T1+T2+T3+T4+T5+T6+T7+T8+T9+T10)/10) && (Tamb>18),  !- <none>
+    SET V_sch = 0.15,           !- <none>
+    ELSE,                    !- <none>
+    SET V_sch = NULL,        !- <none>
+    ENDIF;                   !- <none>
+
+  EnergyManagementSystem:ProgramCallingManager,
+    Dummy Program Manager,   !- Name
+    BeginTimestepBeforePredictor,  !- EnergyPlus Model Calling Point
+    Natural_Ventilation_Control;  !- Program Name 1
