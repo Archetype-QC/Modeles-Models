@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <measure>
-  <schema_version>3.1</schema_version>
+  <schema_version>3.0</schema_version>
   <name>openstudio_results</name>
   <uid>a25386cd-60e4-46bc-8b11-c755f379d916</uid>
-  <version_id>f4532393-6c0d-4ae9-8f05-ae026ab6892c</version_id>
-  <version_modified>2024-06-24T19:05:06Z</version_modified>
+  <version_id>34ef601e-7150-43e5-9541-918d59f74bac</version_id>
+  <version_modified>20231004T151045Z</version_modified>
   <xml_checksum>557BF06F</xml_checksum>
   <class_name>OpenStudioResults</class_name>
   <display_name>OpenStudio Results</display_name>
@@ -597,16 +597,40 @@
   </attributes>
   <files>
     <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>BFFB1AA6</checksum>
+      <filename>USA_CO_Golden-NREL.724666_TMY3.epw</filename>
+      <filetype>epw</filetype>
+      <usage_type>test</usage_type>
+      <checksum>BDF687C1</checksum>
     </file>
     <file>
-      <filename>README.md</filename>
-      <filetype>md</filetype>
-      <usage_type>readme</usage_type>
-      <checksum>42709140</checksum>
+      <filename>EmptyModel.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>A597C804</checksum>
+    </file>
+    <file>
+      <filename>NoRunPeriod.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>32622D37</checksum>
+    </file>
+    <file>
+      <filename>1004_SmallHotel_a.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>C62949E8</checksum>
+    </file>
+    <file>
+      <filename>HeatingOnly.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>99A21A4F</checksum>
+    </file>
+    <file>
+      <filename>EdgeCaseModel.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>4EEA709C</checksum>
     </file>
     <file>
       <filename>README.md.erb</filename>
@@ -615,27 +639,70 @@
       <checksum>4F81E2EA</checksum>
     </file>
     <file>
-      <version>
-        <software_program>OpenStudio</software_program>
-        <identifier>2.0.0</identifier>
-        <min_compatible>3.1.0</min_compatible>
-      </version>
-      <filename>measure.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>script</usage_type>
-      <checksum>120E71D7</checksum>
+      <filename>PeriodInConstName.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>E41FBCFF</checksum>
+    </file>
+    <file>
+      <filename>add_tariff.osw</filename>
+      <filetype>osw</filetype>
+      <usage_type>test</usage_type>
+      <checksum>BF680A60</checksum>
+    </file>
+    <file>
+      <filename>os_results.osw</filename>
+      <filetype>osw</filetype>
+      <usage_type>test</usage_type>
+      <checksum>8BE06CC3</checksum>
+    </file>
+    <file>
+      <filename>ExampleModel.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>42C65747</checksum>
+    </file>
+    <file>
+      <filename>PeriodInConstName.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>E41FBCFF</checksum>
+    </file>
+    <file>
+      <filename>add_tariff.osw</filename>
+      <filetype>osw</filetype>
+      <usage_type>test</usage_type>
+      <checksum>BF680A60</checksum>
+    </file>
+    <file>
+      <filename>os_results.osw</filename>
+      <filetype>osw</filetype>
+      <usage_type>test</usage_type>
+      <checksum>8BE06CC3</checksum>
+    </file>
+    <file>
+      <filename>ExampleModel.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>42C65747</checksum>
+    </file>
+    <file>
+      <filename>README.md</filename>
+      <filetype>md</filetype>
+      <usage_type>readme</usage_type>
+      <checksum>42709140</checksum>
+    </file>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>BFFB1AA6</checksum>
     </file>
     <file>
       <filename>Siz.AirConditionerVariableRefrigerantFlow.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>BD293F43</checksum>
-    </file>
-    <file>
-      <filename>Siz.AirLoopHVAC.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>8FF78161</checksum>
     </file>
     <file>
       <filename>Siz.AirLoopHVACUnitaryHeatCoolVAVChangeoverBypass.rb</filename>
@@ -662,18 +729,6 @@
       <checksum>F7170469</checksum>
     </file>
     <file>
-      <filename>Siz.AirTerminalDualDuctVAV.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>956E58B9</checksum>
-    </file>
-    <file>
-      <filename>Siz.AirTerminalSingleDuctConstantVolumeCooledBeam.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>C98349DB</checksum>
-    </file>
-    <file>
       <filename>Siz.AirTerminalSingleDuctConstantVolumeFourPipeInduction.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -698,28 +753,10 @@
       <checksum>48FD4B6D</checksum>
     </file>
     <file>
-      <filename>Siz.AirTerminalSingleDuctUncontrolled.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>3A318045</checksum>
-    </file>
-    <file>
-      <filename>Siz.AirTerminalSingleDuctVAVHeatAndCoolNoReheat.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>3A56EF39</checksum>
-    </file>
-    <file>
       <filename>Siz.AirTerminalSingleDuctVAVHeatAndCoolReheat.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>3BAC65F7</checksum>
-    </file>
-    <file>
-      <filename>Siz.AirTerminalSingleDuctVAVNoReheat.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>0F335B9A</checksum>
     </file>
     <file>
       <filename>Siz.AirTerminalSingleDuctVAVReheat.rb</filename>
@@ -740,36 +777,6 @@
       <checksum>C0350674</checksum>
     </file>
     <file>
-      <filename>Siz.ChillerAbsorption.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>D5F78410</checksum>
-    </file>
-    <file>
-      <filename>Siz.ChillerAbsorptionIndirect.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>86548075</checksum>
-    </file>
-    <file>
-      <filename>Siz.ChillerElectricEIR.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>F2210A57</checksum>
-    </file>
-    <file>
-      <filename>Siz.ChillerHeaterPerformanceElectricEIR.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>1E0C0AD6</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilCoolingDXMultiSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>F32E2FFA</checksum>
-    </file>
-    <file>
       <filename>Siz.CoilCoolingDXMultiSpeedStageData.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -788,52 +795,10 @@
       <checksum>4151B258</checksum>
     </file>
     <file>
-      <filename>Siz.CoilCoolingDXTwoStageWithHumidityControlMode.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>147180B8</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilCoolingDXVariableRefrigerantFlow.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B9FF1267</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilCoolingDXVariableSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>7A1C1D29</checksum>
-    </file>
-    <file>
       <filename>Siz.CoilCoolingDXVariableSpeedSpeedData.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>B43001FD</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilCoolingLowTempRadiantVarFlow.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>50C57E19</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilCoolingWater.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>16B17757</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilCoolingWaterToAirHeatPumpEquationFit.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>03188BC3</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilCoolingWaterToAirHeatPumpVariableSpeedEquationFit.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9DD25624</checksum>
     </file>
     <file>
       <filename>Siz.CoilCoolingWaterToAirHeatPumpVariableSpeedEquationFitSpeedData.rb</filename>
@@ -842,10 +807,10 @@
       <checksum>E64FA8F6</checksum>
     </file>
     <file>
-      <filename>Siz.CoilHeatingDXMultiSpeed.rb</filename>
+      <filename>Siz.CoilHeatingDesuperheater.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>0BB9923F</checksum>
+      <checksum>48E1D4DC</checksum>
     </file>
     <file>
       <filename>Siz.CoilHeatingDXMultiSpeedStageData.rb</filename>
@@ -860,28 +825,10 @@
       <checksum>731CE022</checksum>
     </file>
     <file>
-      <filename>Siz.CoilHeatingDXVariableRefrigerantFlow.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>70D83AAD</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilHeatingDXVariableSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9F3CCE5C</checksum>
-    </file>
-    <file>
       <filename>Siz.CoilHeatingDXVariableSpeedSpeedData.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>4FF8419B</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilHeatingDesuperheater.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>48E1D4DC</checksum>
     </file>
     <file>
       <filename>Siz.CoilHeatingElectric.rb</filename>
@@ -896,12 +843,6 @@
       <checksum>A74DB0AD</checksum>
     </file>
     <file>
-      <filename>Siz.CoilHeatingGasMultiStage.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>4B7454C3</checksum>
-    </file>
-    <file>
       <filename>Siz.CoilHeatingGasMultiStageStageData.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -912,36 +853,6 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>C55CC578</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilHeatingWater.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>F0253B77</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilHeatingWaterBaseboard.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9F4F269E</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilHeatingWaterBaseboardRadiant.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>19131C78</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilHeatingWaterToAirHeatPumpEquationFit.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>04727BB3</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoilHeatingWaterToAirHeatPumpVariableSpeedEquationFit.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>CE732BD0</checksum>
     </file>
     <file>
       <filename>Siz.CoilHeatingWaterToAirHeatPumpVariableSpeedEquationFitSpeedData.rb</filename>
@@ -986,42 +897,6 @@
       <checksum>C07BA2D9</checksum>
     </file>
     <file>
-      <filename>Siz.ControllerOutdoorAir.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>BDE92987</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoolingTowerSingleSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9995DD14</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoolingTowerTwoSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>50101323</checksum>
-    </file>
-    <file>
-      <filename>Siz.CoolingTowerVariableSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>B32A8CC4</checksum>
-    </file>
-    <file>
-      <filename>Siz.DistrictCooling.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>2D9376E3</checksum>
-    </file>
-    <file>
-      <filename>Siz.DistrictHeating.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>698C44FA</checksum>
-    </file>
-    <file>
       <filename>Siz.ElectricLoadCenterInverterLookUpTable.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -1058,18 +933,6 @@
       <checksum>8150D6ED</checksum>
     </file>
     <file>
-      <filename>Siz.EvaporativeFluidCoolerSingleSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>9F03F7A3</checksum>
-    </file>
-    <file>
-      <filename>Siz.EvaporativeFluidCoolerTwoSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>80729B15</checksum>
-    </file>
-    <file>
       <filename>Siz.FanConstantVolume.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -1092,18 +955,6 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>0C2D4722</checksum>
-    </file>
-    <file>
-      <filename>Siz.FluidCoolerSingleSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>83A56A6C</checksum>
-    </file>
-    <file>
-      <filename>Siz.FluidCoolerTwoSpeed.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>2440A988</checksum>
     </file>
     <file>
       <filename>Siz.GeneratorFuelCellElectricalStorage.rb</filename>
@@ -1136,12 +987,6 @@
       <checksum>889710D5</checksum>
     </file>
     <file>
-      <filename>Siz.HVACComponent.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>F661A794</checksum>
-    </file>
-    <file>
       <filename>Siz.HeaderedPumpsConstantSpeed.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -1160,58 +1005,10 @@
       <checksum>B4FEC7ED</checksum>
     </file>
     <file>
-      <filename>Siz.HeatExchangerFluidToFluid.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>69CE1AFC</checksum>
-    </file>
-    <file>
-      <filename>Siz.HeatPumpWaterToWaterEquationFitCooling.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>F35C5F0B</checksum>
-    </file>
-    <file>
-      <filename>Siz.HeatPumpWaterToWaterEquationFitHeating.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>05DD3738</checksum>
-    </file>
-    <file>
-      <filename>Siz.HumidifierSteamElectric.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>10BFB35A</checksum>
-    </file>
-    <file>
-      <filename>Siz.Model.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>AED992B4</checksum>
-    </file>
-    <file>
-      <filename>Siz.ModelObject.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>EAF7EAF9</checksum>
-    </file>
-    <file>
       <filename>Siz.PhotovoltaicPerformanceSimple.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>2644D3B8</checksum>
-    </file>
-    <file>
-      <filename>Siz.PlantComponentTemperatureSource.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>EF9B4958</checksum>
-    </file>
-    <file>
-      <filename>Siz.PlantLoop.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>CD34455C</checksum>
     </file>
     <file>
       <filename>Siz.PumpConstantSpeed.rb</filename>
@@ -1242,18 +1039,6 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>B495D30D</checksum>
-    </file>
-    <file>
-      <filename>Siz.SizingSystem.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>F17962CB</checksum>
-    </file>
-    <file>
-      <filename>Siz.SolarCollectorFlatPlatePhotovoltaicThermal.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>27E9A1A8</checksum>
     </file>
     <file>
       <filename>Siz.SolarCollectorPerformancePhotovoltaicThermalSimple.rb</filename>
@@ -1364,12 +1149,6 @@
       <checksum>A68FF73E</checksum>
     </file>
     <file>
-      <filename>Siz.ZoneHVACTerminalUnitVariableRefrigerantFlow.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>846EC39E</checksum>
-    </file>
-    <file>
       <filename>Siz.ZoneHVACUnitHeater.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -1394,58 +1173,298 @@
       <checksum>0F50F322</checksum>
     </file>
     <file>
-      <filename>os_lib_reporting.rb</filename>
+      <filename>Siz.AirLoopHVAC.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>3120A102</checksum>
+      <checksum>8FF78161</checksum>
     </file>
     <file>
-      <filename>report.html.erb</filename>
-      <filetype>erb</filetype>
+      <filename>Siz.AirTerminalDualDuctVAV.rb</filename>
+      <filetype>rb</filetype>
       <usage_type>resource</usage_type>
-      <checksum>CCE600FF</checksum>
+      <checksum>956E58B9</checksum>
     </file>
     <file>
-      <filename>1004_SmallHotel_a.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>C62949E8</checksum>
+      <filename>Siz.AirTerminalSingleDuctConstantVolumeCooledBeam.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>C98349DB</checksum>
     </file>
     <file>
-      <filename>EdgeCaseModel.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>4EEA709C</checksum>
+      <filename>Siz.AirTerminalSingleDuctUncontrolled.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>3A318045</checksum>
     </file>
     <file>
-      <filename>EmptyModel.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>A597C804</checksum>
+      <filename>Siz.AirTerminalSingleDuctVAVHeatAndCoolNoReheat.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>3A56EF39</checksum>
     </file>
     <file>
-      <filename>ExampleModel.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>42C65747</checksum>
+      <filename>Siz.AirTerminalSingleDuctVAVNoReheat.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>0F335B9A</checksum>
     </file>
     <file>
-      <filename>ExampleModel.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>42C65747</checksum>
+      <filename>Siz.ChillerAbsorption.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>D5F78410</checksum>
     </file>
     <file>
-      <filename>HeatingOnly.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>99A21A4F</checksum>
+      <filename>Siz.ChillerAbsorptionIndirect.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>86548075</checksum>
     </file>
     <file>
-      <filename>NoRunPeriod.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>32622D37</checksum>
+      <filename>Siz.CoilCoolingDXMultiSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F32E2FFA</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilCoolingDXTwoStageWithHumidityControlMode.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>147180B8</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilCoolingDXVariableRefrigerantFlow.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>B9FF1267</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilCoolingDXVariableSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>7A1C1D29</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilCoolingLowTempRadiantVarFlow.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>50C57E19</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilCoolingWater.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>16B17757</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilCoolingWaterToAirHeatPumpEquationFit.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>03188BC3</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilCoolingWaterToAirHeatPumpVariableSpeedEquationFit.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9DD25624</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingDXMultiSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>0BB9923F</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingDXVariableRefrigerantFlow.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>70D83AAD</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingDXVariableSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9F3CCE5C</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingGasMultiStage.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>4B7454C3</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingWater.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F0253B77</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingWaterBaseboard.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9F4F269E</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingWaterBaseboardRadiant.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>19131C78</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingWaterToAirHeatPumpEquationFit.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>04727BB3</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoilHeatingWaterToAirHeatPumpVariableSpeedEquationFit.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>CE732BD0</checksum>
+    </file>
+    <file>
+      <filename>Siz.ControllerOutdoorAir.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>BDE92987</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoolingTowerSingleSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9995DD14</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoolingTowerTwoSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>50101323</checksum>
+    </file>
+    <file>
+      <filename>Siz.CoolingTowerVariableSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>B32A8CC4</checksum>
+    </file>
+    <file>
+      <filename>Siz.DistrictCooling.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>2D9376E3</checksum>
+    </file>
+    <file>
+      <filename>Siz.DistrictHeating.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>698C44FA</checksum>
+    </file>
+    <file>
+      <filename>Siz.EvaporativeFluidCoolerSingleSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9F03F7A3</checksum>
+    </file>
+    <file>
+      <filename>Siz.EvaporativeFluidCoolerTwoSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>80729B15</checksum>
+    </file>
+    <file>
+      <filename>Siz.FluidCoolerSingleSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>83A56A6C</checksum>
+    </file>
+    <file>
+      <filename>Siz.FluidCoolerTwoSpeed.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>2440A988</checksum>
+    </file>
+    <file>
+      <filename>Siz.HeatExchangerFluidToFluid.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>69CE1AFC</checksum>
+    </file>
+    <file>
+      <filename>Siz.HeatPumpWaterToWaterEquationFitCooling.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F35C5F0B</checksum>
+    </file>
+    <file>
+      <filename>Siz.HeatPumpWaterToWaterEquationFitHeating.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>05DD3738</checksum>
+    </file>
+    <file>
+      <filename>Siz.ModelObject.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>EAF7EAF9</checksum>
+    </file>
+    <file>
+      <filename>Siz.PlantComponentTemperatureSource.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>EF9B4958</checksum>
+    </file>
+    <file>
+      <filename>Siz.PlantLoop.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>CD34455C</checksum>
+    </file>
+    <file>
+      <filename>Siz.SizingSystem.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F17962CB</checksum>
+    </file>
+    <file>
+      <filename>Siz.SolarCollectorFlatPlatePhotovoltaicThermal.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>27E9A1A8</checksum>
+    </file>
+    <file>
+      <filename>Siz.ZoneHVACTerminalUnitVariableRefrigerantFlow.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>846EC39E</checksum>
+    </file>
+    <file>
+      <filename>Siz.HumidifierSteamElectric.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>10BFB35A</checksum>
+    </file>
+    <file>
+      <filename>Siz.HVACComponent.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F661A794</checksum>
+    </file>
+    <file>
+      <filename>Siz.Model.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>AED992B4</checksum>
+    </file>
+    <file>
+      <filename>Siz.ChillerElectricEIR.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>F2210A57</checksum>
+    </file>
+    <file>
+      <filename>Siz.ChillerHeaterPerformanceElectricEIR.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>1E0C0AD6</checksum>
     </file>
     <file>
       <filename>OpenStudioResults_Test.rb</filename>
@@ -1454,46 +1473,27 @@
       <checksum>A9A0BC01</checksum>
     </file>
     <file>
-      <filename>PeriodInConstName.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>E41FBCFF</checksum>
+      <filename>os_lib_reporting.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>3120A102</checksum>
     </file>
     <file>
-      <filename>PeriodInConstName.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>E41FBCFF</checksum>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.0.0</identifier>
+        <min_compatible>3.1.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>120E71D7</checksum>
     </file>
     <file>
-      <filename>USA_CO_Golden-NREL.724666_TMY3.epw</filename>
-      <filetype>epw</filetype>
-      <usage_type>test</usage_type>
-      <checksum>BDF687C1</checksum>
-    </file>
-    <file>
-      <filename>add_tariff.osw</filename>
-      <filetype>osw</filetype>
-      <usage_type>test</usage_type>
-      <checksum>BF680A60</checksum>
-    </file>
-    <file>
-      <filename>add_tariff.osw</filename>
-      <filetype>osw</filetype>
-      <usage_type>test</usage_type>
-      <checksum>BF680A60</checksum>
-    </file>
-    <file>
-      <filename>os_results.osw</filename>
-      <filetype>osw</filetype>
-      <usage_type>test</usage_type>
-      <checksum>8BE06CC3</checksum>
-    </file>
-    <file>
-      <filename>os_results.osw</filename>
-      <filetype>osw</filetype>
-      <usage_type>test</usage_type>
-      <checksum>8BE06CC3</checksum>
+      <filename>report.html.erb</filename>
+      <filetype>erb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>CCE600FF</checksum>
     </file>
   </files>
 </measure>
