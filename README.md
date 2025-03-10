@@ -4,14 +4,12 @@ English is following.
 Ce dépôt vise à documenter les modèles développés dans le cadre de l'initiative [Archétype QC](https://github.com/Archetype-QC). Les modèles déposés dans ce dépôt sont organisés selon la structure suivante:  
 - [Prototypes-Batiments-Buildings](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings): ce dossier est composé de modèles de bâtiments typiques résidentiels, commerciaux et institutionnels;
   - [ReferenceOSM](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/ReferenceOSM): ce dossier est composé de librairies standardisées à réutiliser pour les modèles OSM;  
-  - [R](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/R): ce dossier est composé de modèles de bâtiments typiques résidentiels (maisons unifamiliales détachées, multi-logements, etc.), d'un diagramme 
-  présentant tous ces modèles disponibles ou non et d'un fichier CSV listant tous ces modèles disponibles avec quelques propriétés;  
-  - [CI](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/CI): ce dossier est composé de modèles de bâtiments typiques commerciaux ou institutionnels (écoles, immeubles à bureaux, restaurants, hotels, etc.), d'un diagramme présentant tous ces modèles disponibles ou non et d'un fichier CSV listant tous ces modèles disponibles avec quelques propriétés;  
-  - Note: pour chaque modèle répertorié dans ce dossier, 1 dossier comprenant 5 fichiers et 2 dossiers est créé. Les 5 fichiers et les 2 dossiers sont demandés pour documenter au mieux le modèle et sont:  
+  - [R](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/R): ce dossier est composé de modèles de bâtiments typiques résidentiels (maisons unifamiliales détachées, multi-logements, etc.), d'un diagramme présentant tous les modèles disponibles, d'un fichier CSV listant tous les modèles disponibles avec quelques propriétés et d'un dossier "Documentation" contenant les rapports décrivant le développement des modèles;  
+  - [CI](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/CI): ce dossier est composé de modèles de bâtiments typiques commerciaux ou institutionnels (écoles, immeubles à bureaux, restaurants, hotels, etc.), d'un diagramme présentant tous les modèles disponibles, d'un fichier CSV listant tous les modèles disponibles avec quelques propriétés et d'un dossier "Documentation" contenant les rapports décrivant le développement des modèles;  
+  - Note: pour chaque modèle répertorié dans ce dossier, 1 dossier comprenant 3 fichiers et 2 dossiers est créé. Les 3 fichiers et les 2 dossiers sont demandés pour documenter au mieux le modèle et sont:  
     - Le fichier .osm du modèle OpenStudio du bâtiment;
     - Le fichier .idf du modèle EnergyPlus du bâtiment;  
-    - Les 2 rapports .html générés par EnergyPlus et OpenStudio durant la simulation et permettant de donner des caractéristiques détaillées du modèle;   
-    - Un rapport descriptif du modèle écrit par le(s) développeur(s) du modèle (en format pdf, markdown ou autres);
+    - Le rapport .html généré par EnergyPlus durant la simulation et permettant de donner des caractéristiques détaillées du modèle;   
     - Le dossier "Mesures-Measures-Ruby" contient les mesures utilisées dans le modèle;
     - Le dossier "Meteo-Weather" contient le fichier météo utilisé par le modèle.   
 - ModelesParcBatiments-BuildingStockModels (pas encore mis en oeuvre): ce dossier sera composé de modèles de parc de bâtiments représentatifs du Québec.   
@@ -23,13 +21,12 @@ Ce dépôt vise à documenter les modèles développés dans le cadre de l'initi
 The purpose of this repository is to document the models developed in the initiative [Archetype QC](https://github.com/Archetype-QC). The models available in this repository are organized according to the following structure:  
 - [Prototypes-Batiments-Buildings](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings): this folder contains models of typical residential, commercial and institutional buildings;  
   - [ReferenceOSM](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/ReferenceOSM): this folder contains standardized libraries to use for OSM models;  
-  - [R](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/R): this folder contains models of typical residential buildings (detached single-family homes, multi-unit dwellings, etc.), a diagram showing all available and unavailable models, and a CSV file listing all available models with a few properties;  
-  - [CI](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/CI): this folder contains models of typical commercial or institutional buildings (schools, office buildings, restaurants, hotels, etc.), a diagram showing all available and unavailable models, and a CSV file listing all available models with a few properties;  
-  - Note: for each model listed in this folder, 1 folder with 5 files and 2 folders is created. The 5 files and 2 folders are required to best document the model and are:  
+  - [R](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/R): this folder contains models of typical residential buildings (detached single-family homes, multi-unit dwellings, etc.), a diagram showing all available models, a CSV file listing all available models with a few properties, and a folder "Documentation" containing the reports describing the model developments;  
+  - [CI](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings/CI): this folder contains models of typical commercial or institutional buildings (schools, office buildings, restaurants, hotels, etc.), a diagram showing all available models, a CSV file listing all available models with a few properties, and a folder "Documentation" containing the reports describing the model developments;  
+  - Note: for each model listed in this folder, 1 folder with 3 files and 2 folders is created. The 3 files and 2 folders are required to best document the model and are:  
     - The .osm file of the building's OpenStudio model;
     - The .idf file of the building's EnergyPlus model;  
-    - The .html reports generated by EnergyPlus and OpenStudio during the simulation, giving detailed characteristics of the model;   
-    - A model description report written by the model developer(s) (in pdf, markdown or other format);
+    - The .html report generated by EnergyPlus during the simulation, giving detailed characteristics of the model;   
     - The "Measurements-Measures-Ruby" folder contains the measures used by the model;
     - The "Meteo-Weather" folder contains the weather file used by the model.    
 - ModelesParcBatiments-BuildingStockModels (not yet implemented): this folder will be made up of building stock models representative of Québec.  
