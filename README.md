@@ -1,4 +1,11 @@
 English is following.  
+
+# Avertissement  
+## Statut du projet et limitation de responsabilité  
+Ce dépôt contient du code, des données et de la documentation qui sont toujours en cours de développement. Le contenu est fourni "tel quel", sans aucune garantie d’aucune sorte, expresse ou implicite, y compris, sans s’y limiter, les garanties de qualité marchande, d’adéquation à un usage particulier ou d’absence d’erreurs.
+Les auteurs et contributeurs de ce dépôt ne garantissent pas l’exactitude, l’exhaustivité, la fiabilité ou la pertinence du contenu pour un quelconque usage.
+Toute utilisation du contenu de ce dépôt se fait aux seuls risques et périls de l’utilisateur.
+En aucun cas, les auteurs, contributeurs ou organisations associées à ce dépôt ne pourront être tenus responsables de dommages directs ou indirects, pertes de données, pertes financières ou de toute autre conséquence résultant de l’utilisation, de la modification ou de la redistribution du contenu par des tiers.
   
 # Modèles  
 Ce dépôt vise à documenter les modèles développés dans le cadre de l'initiative [Archétype QC](https://github.com/Archetype-QC). Les modèles déposés dans ce dépôt sont organisés selon la structure suivante:  
@@ -17,6 +24,13 @@ Ce dépôt vise à documenter les modèles développés dans le cadre de l'initi
 - ModelesComplementaires-ComplementaryModels (pas encore mis en oeuvre): ce dossier sera composé de modèles complémentaires aux modèles de bâtiments, par exemple des modèles de nouveaux équipements ou des modèles d'occupation.     
   
 --------------------------------------------------------------------------------
+# Disclaimer  
+## Project Status and Limitation of Liability  
+This repository contains code, data, and documentation that is under active development. The content is provided "as is", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or absence of defects.
+The authors and contributors of this repository make no guarantees regarding the accuracy, completeness, reliability, or suitability of the content for any specific use.
+Any use of the content is made entirely at the user’s own risk.
+Under no circumstances shall the authors, contributors, or any affiliated organizations be held liable for any direct or indirect damages, data loss, financial loss, or any other consequences arising from the use, modification, or redistribution of the content by third parties.
+  
 # Models
 The purpose of this repository is to document the models developed in the initiative [Archetype QC](https://github.com/Archetype-QC). The models available in this repository are organized according to the following structure:  
 - [Prototypes-Batiments-Buildings](https://github.com/Archetype-QC/models/tree/main/Prototypes-Batiments-Buildings): this folder contains models of typical residential, commercial and institutional buildings;  
