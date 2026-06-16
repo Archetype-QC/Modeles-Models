@@ -12,32 +12,38 @@ Ce dépôt vise à documenter les modèles développés dans le cadre de l'initi
 - [Prototypes-Batiments-Buildings](https://github.com/Archetype-QC/Modeles-Models/tree/main/Prototypes-Batiments-Buildings): ce dossier regroupe les prototypes de bâtiments actuellement disponibles dans le dépôt (résidentiel et commercial-institutionnel), ainsi que deux fichiers CSV de synthèse:
   - `Liste-Modeles-Batiments.csv` (version française);
   - `List-Building-Models.csv` (version anglaise, mêmes modèles).
-  - [R](https://github.com/Archetype-QC/Modeles-Models/tree/main/Prototypes-Batiments-Buildings/R): secteur résidentiel;
-    - `MU` (Multi-Unit): `Apt` (HR/MR), `Dup`, `Trip`;
-    - `SF` (Single-Family): `Det`, `Row`, `SD`.
-  - [CI](https://github.com/Archetype-QC/Modeles-Models/tree/main/Prototypes-Batiments-Buildings/CI): secteur commercial-institutionnel;
-    - `EDU`: modèles d'écoles actuellement présents dans le dépôt.
-  - Contenu type d'un dossier de modèle: un fichier `.osm`, un fichier `in.idf`, un rapport `eplustbl.htm` et deux fiches PDF (`Fiche energie.pdf`, `Energy card.pdf`).
+  - Le répertoire [R](https://github.com/Archetype-QC/Modeles-Models/tree/main/Prototypes-Batiments-Buildings/R) contient les modèles du secteur résidentiel et inclut les sous-répertoires suivants;
+    - `MU` (Multi-Unit) pour les immeubles à logements multiples incluant `Apt` (les immeubles à appartements de moyenne [MR] et haute [HR] hauteur), `Dup` (duplex) et `Trip` (triplex);
+    - `SF` (Single-Family) pour les logements unifamiliaux incluant `Det` (maisons détachées), `Row` (maisons en rangée) et `SD` (les maisons semi-détachées ou jumelées).
+  - Le répertoire [CI](https://github.com/Archetype-QC/Modeles-Models/tree/main/Prototypes-Batiments-Buildings/CI) contient les modèles du secteur commercial-institutionnel, et plus spécialement les sous-répertoires suivants:
+    - `EDU` pour le secteur de l'éducation avec des modèles d'écoles.
+  - Le contenu type d'un dossier de modèle inclut le fichier `.osm` du modèle OpenStudio, le fichier EnergyPlus `in.idf` équivalent au fichier `.osm`, le rapport de simulation EnergyPlus `eplustbl.htm` et deux fiches descriptives PDF (`Fiche energie.pdf` pour la version française, `Energy card.pdf` pour la version anglaise).
 
-Explication de l'arborescence (lecture des dossiers):
+Explication de l'arborescence du dépôt:
 ```text
-Prototypes-Batiments-Buildings/
-|-- Liste-Modeles-Batiments.csv
-|-- List-Building-Models.csv
-|-- R/
-|   |-- MU/
-|   |   |-- Apt/HR/ ou Apt/MR/
-|   |   |-- Dup/
-|   |   \-- Trip/
-|   \-- SF/
-|       |-- Det/
-|       |-- Row/
-|       \-- SD/
-\-- CI/
-    \-- EDU/
+Modeles-Models/                     Racine du dépôt
+|-- README.md                       Présentation générale du dépôt en français et en anglais
+|-- LICENSE-FR                      Licence du dépôt en français
+|-- LICENSE-EN                      Licence du dépôt en anglais
+\-- Prototypes-Batiments-Buildings/ Prototypes de bâtiments et fichiers CSV de synthèse
+  |-- Liste-Modeles-Batiments.csv  Liste des modèles avec colonnes en français
+  |-- List-Building-Models.csv     Liste des mêmes modèles avec colonnes en anglais
+  |-- R/                           Modèles du secteur résidentiel
+  |   |-- MU/                      Bâtiments résidentiels multi-logements
+  |   |   |-- Apt/                 Immeubles à appartements
+  |   |   |   |-- HR/              Modèles d'immeubles à appartements de grande hauteur
+  |   |   |   \-- MR/              Modèles d'immeubles à appartements de moyenne hauteur
+  |   |   |-- Dup/                 Modèles de duplex
+  |   |   \-- Trip/                Modèles de triplex
+  |   \-- SF/                      Bâtiments résidentiels unifamiliaux
+  |       |-- Det/                 Modèles de maisons détachées
+  |       |-- Row/                 Modèles de maisons en rangée
+  |       \-- SD/                  Modèles de maisons semi-détachées ou jumelées
+  \-- CI/                          Modèles du secteur commercial et institutionnel
+    \-- EDU/                     Modèles du secteur de l'éducation, notamment des écoles
 ```
 
-Convention de nommage des modèles: les acronymes dans les noms et chemins indiquent le secteur, le type de bâtiment, la configuration (ex. `Att`, `Det`, `bsmt-empty/main/unit`) et la période de construction (ex. `pre1945`, `1946-1970`, `post2012`).  
+Note sur la convention de nommage des modèles: les acronymes dans les noms et chemins indiquent le secteur, le type de bâtiment, la configuration (ex. `Att`, `Det`, `bsmt-empty/main/unit`) et la période de construction (ex. `pre1945`, `1946-1970`, `post2012`).  
   
 --------------------------------------------------------------------------------
 # Disclaimer  
