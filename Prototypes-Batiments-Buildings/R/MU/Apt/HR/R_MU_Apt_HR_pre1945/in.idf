@@ -156820,8 +156820,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 171,                            !- Name
@@ -160044,8 +160044,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 444,                        !- Name
@@ -160059,8 +160059,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 623,                            !- Name
@@ -160460,8 +160460,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 128,                        !- Name
@@ -160475,8 +160475,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 183,                            !- Name
@@ -163666,8 +163666,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 211,                        !- Name
@@ -163681,8 +163681,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 298,                            !- Name
@@ -164565,14 +164565,14 @@ BuildingSurface:Detailed,
 
 BuildingSurface:Detailed,
   Surface 535,                            !- Name
-  Ceiling,                                !- Surface Type
-  Generic Interior Floor,                 !- Construction Name
+  Roof,                                   !- Surface Type
+  Surface 535 c tbd,                      !- Construction Name
   Thermal Zone 32,                        !- Zone Name
   Space 255,                              !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, -11.5, 3.048,                        !- X,Y,Z Vertex 1 {m}
@@ -165492,8 +165492,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 166,                        !- Name
@@ -165507,8 +165507,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 235,                            !- Name
@@ -165923,8 +165923,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 241,                            !- Name
@@ -166740,8 +166740,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 306,                        !- Name
@@ -166755,8 +166755,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 433,                            !- Name
@@ -168118,8 +168118,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 17,                         !- Name
@@ -168133,8 +168133,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 12,                             !- Name
@@ -169449,8 +169449,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 310,                            !- Name
@@ -170266,8 +170266,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 243,                        !- Name
@@ -170281,8 +170281,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 344,                            !- Name
@@ -171179,8 +171179,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 350,                            !- Name
@@ -171595,8 +171595,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 356,                            !- Name
@@ -172954,8 +172954,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 39,                             !- Name
@@ -175774,8 +175774,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 290,                        !- Name
@@ -175789,8 +175789,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 409,                            !- Name
@@ -176993,14 +176993,14 @@ BuildingSurface:Detailed,
 
 BuildingSurface:Detailed,
   Surface 627,                            !- Name
-  Ceiling,                                !- Surface Type
-  Generic Interior Floor,                 !- Construction Name
+  Roof,                                   !- Surface Type
+  Surface 627 c tbd,                      !- Construction Name
   Thermal Zone 58,                        !- Zone Name
   Space 268,                              !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, -11, 3.048,                          !- X,Y,Z Vertex 1 {m}
@@ -177854,8 +177854,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 223,                        !- Name
@@ -177869,8 +177869,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 316,                            !- Name
@@ -179599,8 +179599,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 475,                            !- Name
@@ -180966,14 +180966,14 @@ BuildingSurface:Detailed,
 
 BuildingSurface:Detailed,
   Surface 504,                            !- Name
-  Ceiling,                                !- Surface Type
-  Generic Interior Floor,                 !- Construction Name
+  Roof,                                   !- Surface Type
+  Surface 504 c tbd,                      !- Construction Name
   Thermal Zone 66,                        !- Zone Name
   Space 251,                              !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.048,                            !- X,Y,Z Vertex 1 {m}
@@ -181448,14 +181448,14 @@ BuildingSurface:Detailed,
 
 BuildingSurface:Detailed,
   Surface 518,                            !- Name
-  Ceiling,                                !- Surface Type
-  Generic Interior Floor,                 !- Construction Name
+  Roof,                                   !- Surface Type
+  Surface 518 c tbd,                      !- Construction Name
   Thermal Zone 67,                        !- Zone Name
   Space 253,                              !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   6, -10, 3.048,                          !- X,Y,Z Vertex 1 {m}
@@ -182967,8 +182967,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 229,                            !- Name
@@ -183821,14 +183821,14 @@ BuildingSurface:Detailed,
 
 BuildingSurface:Detailed,
   Surface 574,                            !- Name
-  Ceiling,                                !- Surface Type
-  Generic Interior Floor,                 !- Construction Name
+  Roof,                                   !- Surface Type
+  Surface 574 c tbd,                      !- Construction Name
   Thermal Zone 71,                        !- Zone Name
   Space 260,                              !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   11.53, 0, 3.048,                        !- X,Y,Z Vertex 1 {m}
@@ -183865,8 +183865,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 576,                            !- Name
@@ -185566,14 +185566,14 @@ FenestrationSurface:Detailed,
 
 BuildingSurface:Detailed,
   Surface 600,                            !- Name
-  Ceiling,                                !- Surface Type
-  Generic Interior Floor,                 !- Construction Name
+  Roof,                                   !- Surface Type
+  Surface 600 c tbd,                      !- Construction Name
   Thermal Zone 75,                        !- Zone Name
   Space 264,                              !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, -45, 3.048,                          !- X,Y,Z Vertex 1 {m}
@@ -186508,8 +186508,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 452,                        !- Name
@@ -186523,8 +186523,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 635,                            !- Name
@@ -186939,8 +186939,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 641,                            !- Name
@@ -187311,14 +187311,14 @@ BuildingSurface:Detailed,
 
 BuildingSurface:Detailed,
   Surface 645,                            !- Name
-  Ceiling,                                !- Surface Type
-  Generic Interior Floor,                 !- Construction Name
+  Roof,                                   !- Surface Type
+  Surface 645 c tbd,                      !- Construction Name
   Thermal Zone 79,                        !- Zone Name
   Space 271,                              !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
@@ -187340,8 +187340,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 460,                        !- Name
@@ -187355,8 +187355,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 647,                            !- Name
@@ -188283,8 +188283,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 653,                            !- Name
@@ -189181,8 +189181,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 667,                            !- Name
@@ -190992,8 +190992,8 @@ BuildingSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
   Sub Surface 495,                        !- Name
@@ -191007,8 +191007,8 @@ FenestrationSurface:Detailed,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
   Surface 696,                            !- Name
@@ -193468,10 +193468,21 @@ Material,
   0.7;                                    !- Visible Absorptance
 
 Material,
+  Surface 504 m tbd,                      !- Name
+  MediumRough,                            !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.172438933862744,                      !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1470,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
   Surface 505 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.22263734809369,                       !- Conductivity {W/m-K}
+  0.236107597784412,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193482,7 +193493,7 @@ Material,
   Surface 507 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.223331395891272,                      !- Conductivity {W/m-K}
+  0.236801645581994,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193493,7 +193504,7 @@ Material,
   Surface 508 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.228212856654889,                      !- Conductivity {W/m-K}
+  0.241683106345611,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193504,7 +193515,7 @@ Material,
   Surface 509 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.247734179421738,                      !- Conductivity {W/m-K}
+  0.26120442911246,                       !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193523,10 +193534,21 @@ Material,
   0.7;                                    !- Visible Absorptance
 
 Material,
+  Surface 518 m tbd,                      !- Name
+  MediumRough,                            !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.172444451780042,                      !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1470,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
   Surface 519 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.22263734809369,                       !- Conductivity {W/m-K}
+  0.236107597784412,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193537,7 +193559,7 @@ Material,
   Surface 521 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.228212856654889,                      !- Conductivity {W/m-K}
+  0.241683106345611,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193548,7 +193570,7 @@ Material,
   Surface 522 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.223380178369995,                      !- Conductivity {W/m-K}
+  0.236850428060717,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193559,7 +193581,7 @@ Material,
   Surface 523 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.247734179421738,                      !- Conductivity {W/m-K}
+  0.26120442911246,                       !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193578,10 +193600,21 @@ Material,
   0.7;                                    !- Visible Absorptance
 
 Material,
+  Surface 535 m tbd,                      !- Name
+  MediumRough,                            !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.165822623076743,                      !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1470,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
   Surface 539 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.218071932915282,                      !- Conductivity {W/m-K}
+  0.231542182606004,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193732,10 +193765,21 @@ Material,
   0.7;                                    !- Visible Absorptance
 
 Material,
+  Surface 574 m tbd,                      !- Name
+  MediumRough,                            !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.165817630534631,                      !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1470,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
   Surface 578 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.218079366965458,                      !- Conductivity {W/m-K}
+  0.23154961665618,                       !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193812,7 +193856,7 @@ Material,
   Surface 599 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.218122137584985,                      !- Conductivity {W/m-K}
+  0.231592387275707,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193826,6 +193870,17 @@ Material,
   0.25525119449298,                       !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  Surface 600 m tbd,                      !- Name
+  MediumRough,                            !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.184037422037422,                      !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1470,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
   0.7,                                    !- Solar Absorptance
   0.7;                                    !- Visible Absorptance
@@ -193864,10 +193919,21 @@ Material,
   0.7;                                    !- Visible Absorptance
 
 Material,
+  Surface 627 m tbd,                      !- Name
+  MediumRough,                            !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.165822623076743,                      !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1470,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
   Surface 631 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.218201153689527,                      !- Conductivity {W/m-K}
+  0.231671403380249,                      !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -193897,10 +193963,21 @@ Material,
   0.7;                                    !- Visible Absorptance
 
 Material,
+  Surface 645 m tbd,                      !- Name
+  MediumRough,                            !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.165827828646071,                      !- Conductivity {W/m-K}
+  1121,                                   !- Density {kg/m3}
+  1470,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
   Surface 648 m tbd,                      !- Name
   MediumRough,                            !- Roughness
   0.08,                                   !- Thickness {m}
-  0.218193068451338,                      !- Conductivity {W/m-K}
+  0.23166331814206,                       !- Conductivity {W/m-K}
   800,                                    !- Density {kg/m3}
   1090,                                   !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
@@ -194907,6 +194984,11 @@ Construction,
   Surface 5 m tbd;                        !- Layer 3
 
 Construction,
+  Surface 504 c tbd,                      !- Name
+  Surface 504 m tbd,                      !- Layer 1
+  AQNC2024NMair less15 mm (R 1.0x Solar 1.0x Therm 1.0x); !- Layer 2
+
+Construction,
   Surface 505 c tbd,                      !- Name
   AQNC2024brick (fired clay) (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 1
   AQNC2024NMair less15 mm (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 2
@@ -194937,6 +195019,11 @@ Construction,
   Surface 516 m tbd;                      !- Layer 3
 
 Construction,
+  Surface 518 c tbd,                      !- Name
+  Surface 518 m tbd,                      !- Layer 1
+  AQNC2024NMair less15 mm (R 1.0x Solar 1.0x Therm 1.0x); !- Layer 2
+
+Construction,
   Surface 519 c tbd,                      !- Name
   AQNC2024brick (fired clay) (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 1
   AQNC2024NMair less15 mm (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 2
@@ -194965,6 +195052,11 @@ Construction,
   AQNC2024brick (fired clay) (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 1
   AQNC2024NMair less15 mm (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 2
   Surface 525 m tbd;                      !- Layer 3
+
+Construction,
+  Surface 535 c tbd,                      !- Name
+  Surface 535 m tbd,                      !- Layer 1
+  AQNC2024NMair less15 mm (R 1.0x Solar 1.0x Therm 1.0x); !- Layer 2
 
 Construction,
   Surface 539 c tbd,                      !- Name
@@ -195051,6 +195143,11 @@ Construction,
   Surface 571 m tbd;                      !- Layer 3
 
 Construction,
+  Surface 574 c tbd,                      !- Name
+  Surface 574 m tbd,                      !- Layer 1
+  AQNC2024NMair less15 mm (R 1.0x Solar 1.0x Therm 1.0x); !- Layer 2
+
+Construction,
   Surface 578 c tbd,                      !- Name
   AQNC2024brick (fired clay) (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 1
   AQNC2024NMair less15 mm (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 2
@@ -195105,6 +195202,11 @@ Construction,
   Surface 6 m tbd;                        !- Layer 3
 
 Construction,
+  Surface 600 c tbd,                      !- Name
+  Surface 600 m tbd,                      !- Layer 1
+  AQNC2024NMair less15 mm (R 1.0x Solar 1.0x Therm 1.0x); !- Layer 2
+
+Construction,
   Surface 613 c tbd,                      !- Name
   AQNC2024brick (fired clay) (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 1
   AQNC2024NMair less15 mm (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 2
@@ -195123,6 +195225,11 @@ Construction,
   Surface 624 m tbd;                      !- Layer 3
 
 Construction,
+  Surface 627 c tbd,                      !- Name
+  Surface 627 m tbd,                      !- Layer 1
+  AQNC2024NMair less15 mm (R 1.0x Solar 1.0x Therm 1.0x); !- Layer 2
+
+Construction,
   Surface 631 c tbd,                      !- Name
   AQNC2024brick (fired clay) (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 1
   AQNC2024NMair less15 mm (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 2
@@ -195139,6 +195246,11 @@ Construction,
   AQNC2024brick (fired clay) (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 1
   AQNC2024NMair less15 mm (R 0.8x Solar 1.0x Therm 1.0x), !- Layer 2
   Surface 643 m tbd;                      !- Layer 3
+
+Construction,
+  Surface 645 c tbd,                      !- Name
+  Surface 645 m tbd,                      !- Layer 1
+  AQNC2024NMair less15 mm (R 1.0x Solar 1.0x Therm 1.0x); !- Layer 2
 
 Construction,
   Surface 648 c tbd,                      !- Name

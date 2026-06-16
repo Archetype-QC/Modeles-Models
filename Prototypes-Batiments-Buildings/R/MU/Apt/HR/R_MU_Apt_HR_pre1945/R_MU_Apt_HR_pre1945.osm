@@ -1685,8 +1685,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {2642a129-5de0-4870-9ad5-77bb96b0205c}, !- Handle
@@ -2915,8 +2915,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {c7c7e0f2-610b-4704-9b71-f4e351ec3afd}, !- Handle
@@ -3187,8 +3187,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {917d5f4a-42da-45b3-8faf-7c0754759f6a}, !- Handle
@@ -105582,8 +105582,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {7997f7f5-384c-4fa9-8b8d-2772eadf1597}, !- Handle
@@ -105885,8 +105885,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {f3ca8043-ae0a-4c21-ae80-6edaec4618a0}, !- Handle
@@ -105952,8 +105952,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {3fe8730e-982d-4a3c-80ef-9060525696dc}, !- Handle
@@ -107403,8 +107403,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {924259f7-8ce8-49ec-91b6-3cc26968cb61}, !- Handle
@@ -107521,8 +107521,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {c49f25c9-898d-4688-b77f-b74aa4720a19}, !- Handle
@@ -107588,8 +107588,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {50df93f0-df5b-403b-853d-b4a5432c452e}, !- Handle
@@ -107773,8 +107773,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {374ab115-ceac-48b3-949f-abfc1f187ee5}, !- Handle
@@ -109496,8 +109496,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {7f82e4e5-51b8-44b8-9bb8-301cd1efc51f}, !- Handle
@@ -109563,8 +109563,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {3210ea40-1ba9-4686-838a-00f0f8d8c598}, !- Handle
@@ -109933,8 +109933,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {2f52eae2-1e05-4ed6-8531-915a614b34e4}, !- Handle
@@ -110051,8 +110051,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {3ae09721-c7f3-4093-a15c-4b28315beae5}, !- Handle
@@ -110118,8 +110118,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {8f4ec332-622a-424a-ad05-058d36520823}, !- Handle
@@ -110934,8 +110934,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {ae0746a8-19d8-4b61-b6fc-caff9beedbb1}, !- Handle
@@ -111001,8 +111001,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {1f15afce-36fe-4457-a105-82e18ed3fecf}, !- Handle
@@ -111186,8 +111186,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {17392286-8526-435c-a9c9-c3860975a4d5}, !- Handle
@@ -111371,8 +111371,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {116c77f7-736d-4083-9e2a-f68992d97007}, !- Handle
@@ -112971,8 +112971,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {d8aa17be-3ddb-45ae-96b0-173694e4cc44}, !- Handle
@@ -113038,8 +113038,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {8360f05a-405e-47a1-982a-9621bda591f1}, !- Handle
@@ -113711,8 +113711,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {e50c72b7-caa0-4887-b5fe-5235531697fa}, !- Handle
@@ -113778,8 +113778,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {ca154485-a147-4a42-9f7b-8248eb55fcbb}, !- Handle
@@ -115106,8 +115106,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {5f58788b-7bf8-41c7-8ecc-52bb3b6f7e99}, !- Handle
@@ -115990,10 +115990,10 @@ OS:Surface,
   RoofCeiling,                            !- Surface Type
   ,                                       !- Construction Name
   {51cb8a5b-9c57-486a-ae08-7ee0f66271c9}, !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.048,                            !- X,Y,Z Vertex 1 {m}
@@ -116435,10 +116435,10 @@ OS:Surface,
   RoofCeiling,                            !- Surface Type
   ,                                       !- Construction Name
   {69adee62-d0a8-4f88-8986-2575426f44f2}, !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   6, -10, 3.048,                          !- X,Y,Z Vertex 1 {m}
@@ -116971,10 +116971,10 @@ OS:Surface,
   RoofCeiling,                            !- Surface Type
   ,                                       !- Construction Name
   {fcc68d25-6a21-491d-98ab-2006840e452b}, !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, -11.5, 3.048,                        !- X,Y,Z Vertex 1 {m}
@@ -118206,10 +118206,10 @@ OS:Surface,
   RoofCeiling,                            !- Surface Type
   ,                                       !- Construction Name
   {27eba554-74d0-445e-a557-b3412590b9ac}, !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   11.53, 0, 3.048,                        !- X,Y,Z Vertex 1 {m}
@@ -118298,8 +118298,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {2928facb-28cd-421c-a986-fcbfe7543ee8}, !- Handle
@@ -119021,10 +119021,10 @@ OS:Surface,
   RoofCeiling,                            !- Surface Type
   ,                                       !- Construction Name
   {fc40cb89-ee2c-4bce-aa8e-14c0677c6802}, !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, -45, 3.048,                          !- X,Y,Z Vertex 1 {m}
@@ -119700,8 +119700,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {daaed4de-0ad7-4a10-a6f8-b0c5b7383f9b}, !- Handle
@@ -119767,8 +119767,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {6ed0cbbf-b71c-4381-8fc7-b80a42531c0c}, !- Handle
@@ -119860,10 +119860,10 @@ OS:Surface,
   RoofCeiling,                            !- Surface Type
   ,                                       !- Construction Name
   {454b7a05-f674-444e-9c36-b6944b10e643}, !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, -11, 3.048,                          !- X,Y,Z Vertex 1 {m}
@@ -120070,8 +120070,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {9bb09229-ab34-40cb-97a5-823c83b90b26}, !- Handle
@@ -120137,8 +120137,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {49014235-d029-4c4f-807f-179823e88116}, !- Handle
@@ -120322,8 +120322,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {656ad2e1-9542-471c-a457-b2b27a389558}, !- Handle
@@ -120415,10 +120415,10 @@ OS:Surface,
   RoofCeiling,                            !- Surface Type
   ,                                       !- Construction Name
   {c96b46e6-14ca-4417-bd2b-7990fabcee97}, !- Space Name
-  Adiabatic,                              !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
@@ -120440,8 +120440,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {99a05e71-54b8-4260-9aa7-c26599914f5a}, !- Handle
@@ -120507,8 +120507,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {2e931dc8-c7cb-44a8-8568-4936a8dc6e29}, !- Handle
@@ -120692,8 +120692,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {bc8570ba-c434-41bf-b210-abaea5f9ac84}, !- Handle
@@ -121137,8 +121137,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   11.5046000859776, 11.4999339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   11.5046000859776, 11.4999339117588, 1,  !- X,Y,Z Vertex 2 {m}
-  0.0253999140223821, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
-  0.0253999140223821, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  0.0253999140223822, 11.4700660882412, 1, !- X,Y,Z Vertex 3 {m}
+  0.0253999140223822, 11.4700660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {c901bd4b-ded1-4f7d-84ab-e52d14c5cde0}, !- Handle
@@ -121977,8 +121977,8 @@ OS:Surface,
   ,                                       !- Number of Vertices
   -11.53, -11.03, 3.048,                  !- X,Y,Z Vertex 1 {m}
   -11.53, -11.03, 0,                      !- X,Y,Z Vertex 2 {m}
-  1.87834078725416e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
-  1.87834078725416e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
+  2.25400894470499e-17, -11, 0,           !- X,Y,Z Vertex 3 {m}
+  2.25400894470499e-17, -11, 3.048;       !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {03833bb4-a246-4ab4-9a0b-f39434bbae4b}, !- Handle
@@ -122044,8 +122044,8 @@ OS:SubSurface,
   ,                                       !- Number of Vertices
   -11.5046000859776, -11.0299339117588, 1.91844656788524, !- X,Y,Z Vertex 1 {m}
   -11.5046000859776, -11.0299339117588, 1, !- X,Y,Z Vertex 2 {m}
-  -0.0253999140223839, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
-  -0.0253999140223839, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
+  -0.025399914022384, -11.0000660882412, 1, !- X,Y,Z Vertex 3 {m}
+  -0.025399914022384, -11.0000660882412, 1.91844656788524; !- X,Y,Z Vertex 4 {m}
 
 OS:SubSurface,
   {dfec4797-1d29-460f-9add-f75948df0952}, !- Handle
@@ -145113,7 +145113,7 @@ OS:OutputControl:ResilienceSummaries,
 OS:Construction,
   {2f3e6965-ab78-44b4-83d1-19dcdfcc1991}, !- Handle
   AQ_MURB_2024_MURB ground Pre 1950 6A,   !- Name
-  ,                                       !- Surface Rendering Name
+  {cf2f03f9-6bfa-45a1-bd08-384f9d1e8754}, !- Surface Rendering Name
   {ecb38119-62d4-4968-9d33-05687ea6f547}, !- Layer 1
   {54876caa-6232-4229-9c05-dce38d80c1a8}, !- Layer 2
   {ecb38119-62d4-4968-9d33-05687ea6f547}; !- Layer 3
@@ -145125,7 +145125,7 @@ OS:StandardsInformation:Construction,
 OS:Construction,
   {54aff9d7-9a00-43ad-b55a-e8c9da8a1de1}, !- Handle
   AQ_MURB_2024_MURB ground Pre 1950 6A 1, !- Name
-  ,                                       !- Surface Rendering Name
+  {5bbafd9b-1064-4eac-ba11-9d8f414ddc13}, !- Surface Rendering Name
   {ecb38119-62d4-4968-9d33-05687ea6f547}, !- Layer 1
   {54876caa-6232-4229-9c05-dce38d80c1a8}, !- Layer 2
   {ecb38119-62d4-4968-9d33-05687ea6f547}; !- Layer 3
@@ -145137,7 +145137,7 @@ OS:StandardsInformation:Construction,
 OS:Construction,
   {b16e6b81-53ad-46f1-a9fd-0aebdd766c5e}, !- Handle
   AQ_MURB_2024_MURB ground Pre 1950 6A 2, !- Name
-  ,                                       !- Surface Rendering Name
+  {2f5bff3d-5b81-4d8c-a42c-d4d6173009c6}, !- Surface Rendering Name
   {ecb38119-62d4-4968-9d33-05687ea6f547}, !- Layer 1
   {54876caa-6232-4229-9c05-dce38d80c1a8}, !- Layer 2
   {ecb38119-62d4-4968-9d33-05687ea6f547}; !- Layer 3
@@ -145149,7 +145149,7 @@ OS:StandardsInformation:Construction,
 OS:Construction,
   {57e58b6e-2b5f-4cca-877a-a38e9e288a0a}, !- Handle
   AQ_MURB_2024_MURB roof Pre 1950 6A 1,   !- Name
-  ,                                       !- Surface Rendering Name
+  {c9d124c6-cfaa-4871-911b-4b3a84401655}, !- Surface Rendering Name
   {9876b1a7-60ce-4c21-a3c5-668c2a2ec6c5}, !- Layer 1
   {54876caa-6232-4229-9c05-dce38d80c1a8}; !- Layer 2
 
@@ -145160,7 +145160,7 @@ OS:StandardsInformation:Construction,
 OS:Construction,
   {a8fa3c0e-8a3e-4e30-82bd-f225d17f0b60}, !- Handle
   AQ_MURB_2024_MURB Wall Pre 1950 6A,     !- Name
-  ,                                       !- Surface Rendering Name
+  {d0433da1-e2a2-47d4-a638-2b5b31ea93a4}, !- Surface Rendering Name
   {2e06c32e-6795-46e6-bccf-8092c3466de4}, !- Layer 1
   {54876caa-6232-4229-9c05-dce38d80c1a8}, !- Layer 2
   {e90395f7-85f2-4f5f-bc3a-78b7cf998969}; !- Layer 3
@@ -145175,4 +145175,39 @@ OS:Output:Variable,
   *,                                      !- Key Value
   Electric Equipment Electricity Energy,  !- Variable Name
   Hourly;                                 !- Reporting Frequency
+
+OS:Rendering:Color,
+  {d0433da1-e2a2-47d4-a638-2b5b31ea93a4}, !- Handle
+  Rendering Color 239,                    !- Name
+  152,                                    !- Rendering Red Value
+  152,                                    !- Rendering Green Value
+  251;                                    !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {c9d124c6-cfaa-4871-911b-4b3a84401655}, !- Handle
+  Rendering Color 240,                    !- Name
+  186,                                    !- Rendering Red Value
+  211,                                    !- Rendering Green Value
+  85;                                     !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {2f5bff3d-5b81-4d8c-a42c-d4d6173009c6}, !- Handle
+  Rendering Color 241,                    !- Name
+  255,                                    !- Rendering Red Value
+  173,                                    !- Rendering Green Value
+  222;                                    !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {5bbafd9b-1064-4eac-ba11-9d8f414ddc13}, !- Handle
+  Rendering Color 242,                    !- Name
+  72,                                     !- Rendering Red Value
+  204,                                    !- Rendering Green Value
+  209;                                    !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {cf2f03f9-6bfa-45a1-bd08-384f9d1e8754}, !- Handle
+  Rendering Color 243,                    !- Name
+  255,                                    !- Rendering Red Value
+  255,                                    !- Rendering Green Value
+  0;                                      !- Rendering Blue Value
 
