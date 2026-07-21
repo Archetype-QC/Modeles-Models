@@ -1,6 +1,6 @@
 
 Version,
-  23.2;                                   !- Version Identifier
+  25.2;                                   !- Version Identifier
 
 Timestep,
   4;                                      !- Number of Timesteps per Hour
@@ -276,7 +276,8 @@ ZoneInfiltration:DesignFlowRate,
   0.606,                                  !- Constant Term Coefficient
   0.03636,                                !- Temperature Term Coefficient
   0.1177,                                 !- Velocity Term Coefficient
-  0;                                      !- Velocity Squared Term Coefficient
+  0,                                      !- Velocity Squared Term Coefficient
+  Outdoor;                                !- Density Basis
 
 BuildingSurface:Detailed,
   Surface 16,                             !- Name
@@ -408,7 +409,7 @@ Lights,
   Interior Lighting Schedule,             !- Schedule Name
   LightingLevel,                          !- Design Level Calculation Method
   150.85,                                 !- Lighting Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Return Air Fraction
   0.4,                                    !- Fraction Radiant
@@ -6404,7 +6405,13 @@ People,
   ,                                       !- Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
-  Residential Occupant Activity;          !- Activity Level Schedule Name
+  Residential Occupant Activity,          !- Activity Level Schedule Name
+  ,                                       !- Carbon Dioxide Generation Rate {m3/s-W}
+  ,                                       !- Enable ASHRAE 55 Comfort Warnings
+  ,                                       !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  ,                                       !- Work Efficiency Schedule Name
+  ClothingInsulationSchedule;             !- Clothing Insulation Calculation Method
 
 Schedule:Day:Interval,
   Schedule Day 29,                        !- Name
@@ -6564,7 +6571,7 @@ ElectricEquipment,
   Dishwasher Schedule,                    !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   59.25,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -24831,7 +24838,7 @@ ElectricEquipment,
   Dryer Schedule,                         !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   309.55,                                 !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -43098,7 +43105,7 @@ ElectricEquipment,
   Freezer Schedule,                       !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   26.7,                                   !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -61365,7 +61372,7 @@ ElectricEquipment,
   Hot Water Tank Electric Load Schedule,  !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   592.05,                                 !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   ,                                       !- Fraction Radiant
@@ -79632,7 +79639,7 @@ ElectricEquipment,
   Other Electric Charges Schedule,        !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   923.65,                                 !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   0,                                      !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -97899,7 +97906,7 @@ ElectricEquipment,
   Fridge Schedule,                        !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   80.15,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -116166,7 +116173,7 @@ ElectricEquipment,
   Stovetop Schedule,                      !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   236.9,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -134433,7 +134440,7 @@ ElectricEquipment,
   Washer Schedule,                        !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   29.95,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153131,7 +153138,12 @@ Sizing:Zone,
   0.005,                                  !- Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
   HumidityRatioDifference,                !- Zone Latent Heating Design Supply Air Humidity Ratio Input Method
   ,                                       !- Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  0.005;                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  0.005,                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  ,                                       !- Zone Humidistat Dehumidification Set Point Schedule Name
+  ,                                       !- Zone Humidistat Humidification Set Point Schedule Name
+  Coincident,                             !- Type of Space Sum to Use
+  None,                                   !- Heating Coil Sizing Method
+  1;                                      !- Maximum Heating Capacity To Cooling Load Sizing Ratio {W/W}
 
 DesignSpecification:OutdoorAir,
   Basement_Th Zero air DSOA,              !- Name
@@ -153188,7 +153200,7 @@ Lights,
   Interior Lighting Schedule,             !- Schedule Name
   LightingLevel,                          !- Design Level Calculation Method
   150.85,                                 !- Lighting Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Return Air Fraction
   0.4,                                    !- Fraction Radiant
@@ -153206,7 +153218,13 @@ People,
   ,                                       !- Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
-  Residential Occupant Activity;          !- Activity Level Schedule Name
+  Residential Occupant Activity,          !- Activity Level Schedule Name
+  ,                                       !- Carbon Dioxide Generation Rate {m3/s-W}
+  ,                                       !- Enable ASHRAE 55 Comfort Warnings
+  ,                                       !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  ,                                       !- Work Efficiency Schedule Name
+  ClothingInsulationSchedule;             !- Clothing Insulation Calculation Method
 
 ElectricEquipment,
   MainFloors_Dishwasher,                  !- Name
@@ -153214,7 +153232,7 @@ ElectricEquipment,
   Dishwasher Schedule,                    !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   59.25,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153227,7 +153245,7 @@ ElectricEquipment,
   Dryer Schedule,                         !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   309.55,                                 !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153240,7 +153258,7 @@ ElectricEquipment,
   Freezer Schedule,                       !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   26.7,                                   !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153253,7 +153271,7 @@ ElectricEquipment,
   Hot Water Tank Electric Load Schedule,  !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   592.05,                                 !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   ,                                       !- Fraction Radiant
@@ -153266,7 +153284,7 @@ ElectricEquipment,
   Other Electric Charges Schedule,        !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   923.65,                                 !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   0,                                      !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153279,7 +153297,7 @@ ElectricEquipment,
   Fridge Schedule,                        !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   80.15,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153292,7 +153310,7 @@ ElectricEquipment,
   Stovetop Schedule,                      !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   236.9,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153305,7 +153323,7 @@ ElectricEquipment,
   Washer Schedule,                        !- Schedule Name
   EquipmentLevel,                         !- Design Level Calculation Method
   29.95,                                  !- Design Level {W}
-  ,                                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.2,                                    !- Fraction Radiant
@@ -153324,7 +153342,8 @@ ZoneInfiltration:DesignFlowRate,
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
   ,                                       !- Velocity Term Coefficient
-  ;                                       !- Velocity Squared Term Coefficient
+  ,                                       !- Velocity Squared Term Coefficient
+  Outdoor;                                !- Density Basis
 
 BuildingSurface:Detailed,
   Surface 10,                             !- Name
@@ -153924,6 +153943,7 @@ ZoneHVAC:PackagedTerminalAirConditioner,
   Autosize,                               !- Cooling Supply Air Flow Rate {m3/s}
   Autosize,                               !- Heating Supply Air Flow Rate {m3/s}
   Autosize,                               !- No Load Supply Air Flow Rate {m3/s}
+  Yes,                                    !- No Load Supply Air Flow Rate Control Set To Low Speed
   Autosize,                               !- Cooling Outdoor Air Flow Rate {m3/s}
   Autosize,                               !- Heating Outdoor Air Flow Rate {m3/s}
   Autosize,                               !- No Load Outdoor Air Flow Rate {m3/s}
@@ -154153,7 +154173,12 @@ Sizing:Zone,
   0.005,                                  !- Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
   HumidityRatioDifference,                !- Zone Latent Heating Design Supply Air Humidity Ratio Input Method
   ,                                       !- Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  0.005;                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  0.005,                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  ,                                       !- Zone Humidistat Dehumidification Set Point Schedule Name
+  ,                                       !- Zone Humidistat Humidification Set Point Schedule Name
+  Coincident,                             !- Type of Space Sum to Use
+  None,                                   !- Heating Coil Sizing Method
+  1;                                      !- Maximum Heating Capacity To Cooling Load Sizing Ratio {W/W}
 
 DesignSpecification:OutdoorAir,
   GroundFloor_Th Zero air DSOA,           !- Name
@@ -154189,7 +154214,7 @@ SimulationControl,
   No,                                     !- Do Plant Sizing Calculation
   Yes,                                    !- Run Simulation for Sizing Periods
   Yes,                                    !- Run Simulation for Weather File Run Periods
-  No,                                     !- Do HVAC Sizing Simulation for Sizing Periods
+  ,                                       !- Do HVAC Sizing Simulation for Sizing Periods
   ;                                       !- Maximum Number of HVAC Sizing Simulation Passes
 
 ConvergenceLimits,
@@ -154942,6 +154967,21 @@ Construction,
   Plywood 2,                              !- Layer 3
   Surface 9 m tbd;                        !- Layer 4
 
+Schedule:Constant,
+  Always On Discrete,                     !- Name
+  Always On Discrete Limits,              !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
+Schedule:Constant,
+  Always Off Discrete,                    !- Name
+  OnOff 1,                                !- Schedule Type Limits Name
+  0;                                      !- Hourly Value
+
+Schedule:Constant,
+  Always On Continuous,                   !- Name
+  Fractional 1,                           !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
 ScheduleTypeLimits,
   ActivityLevel,                          !- Name
   0,                                      !- Lower Limit Value {BasedOnField A3}
@@ -155022,6 +155062,12 @@ ScheduleTypeLimits,
   CONTINUOUS;                             !- Numeric Type
 
 ScheduleTypeLimits,
+  Fractional 1,                           !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  Continuous;                             !- Numeric Type
+
+ScheduleTypeLimits,
   Integer,                                !- Name
   0,                                      !- Lower Limit Value {BasedOnField A3}
   4,                                      !- Upper Limit Value {BasedOnField A3}
@@ -155029,6 +155075,13 @@ ScheduleTypeLimits,
 
 ScheduleTypeLimits,
   OnOff,                                  !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  Discrete,                               !- Numeric Type
+  availability;                           !- Unit Type
+
+ScheduleTypeLimits,
+  OnOff 1,                                !- Name
   0,                                      !- Lower Limit Value {BasedOnField A3}
   1,                                      !- Upper Limit Value {BasedOnField A3}
   Discrete,                               !- Numeric Type
@@ -155110,11 +155163,6 @@ ScheduleTypeLimits,
   ,                                       !- Upper Limit Value {BasedOnField A3}
   Continuous,                             !- Numeric Type
   velocity;                               !- Unit Type
-
-Schedule:Constant,
-  Always On Discrete,                     !- Name
-  Always On Discrete Limits,              !- Schedule Type Limits Name
-  1;                                      !- Hourly Value
 
 Schedule:Compact,
   Exterior Lighting Schedule,             !- Name
@@ -158058,16 +158106,6 @@ Schedule:Compact,
   Until: 24:00,                           !- Field 2937
   0.75;                                   !- Field 2938
 
-Schedule:Constant,
-  Always Off Discrete,                    !- Name
-  ,                                       !- Schedule Type Limits Name
-  0;                                      !- Hourly Value
-
-Schedule:Constant,
-  Always On Continuous,                   !- Name
-  ,                                       !- Schedule Type Limits Name
-  1;                                      !- Hourly Value
-
 OutdoorAir:Node,
   Model Outdoor Air Node;                 !- Name
 
@@ -158278,33 +158316,33 @@ Output:Table:Monthly,
   SumOrAverage;                           !- Aggregation Type for Variable or Meter 6
 
 Output:Table:Monthly,
-  Building Energy Performance - District Heating, !- Name
+  Building Energy Performance - District Heating Water, !- Name
   2,                                      !- Digits After Decimal
-  InteriorLights:DistrictHeating,         !- Variable or Meter Name 1
+  InteriorLights:DistrictHeatingWater,    !- Variable or Meter Name 1
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 1
-  ExteriorLights:DistrictHeating,         !- Variable or Meter Name 2
+  ExteriorLights:DistrictHeatingWater,    !- Variable or Meter Name 2
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 2
-  InteriorEquipment:DistrictHeating,      !- Variable or Meter Name 3
+  InteriorEquipment:DistrictHeatingWater, !- Variable or Meter Name 3
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 3
-  ExteriorEquipment:DistrictHeating,      !- Variable or Meter Name 4
+  ExteriorEquipment:DistrictHeatingWater, !- Variable or Meter Name 4
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 4
-  Fans:DistrictHeating,                   !- Variable or Meter Name 5
+  Fans:DistrictHeatingWater,              !- Variable or Meter Name 5
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 5
-  Pumps:DistrictHeating,                  !- Variable or Meter Name 6
+  Pumps:DistrictHeatingWater,             !- Variable or Meter Name 6
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 6
-  Heating:DistrictHeating,                !- Variable or Meter Name 7
+  Heating:DistrictHeatingWater,           !- Variable or Meter Name 7
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 7
-  Cooling:DistrictHeating,                !- Variable or Meter Name 8
+  Cooling:DistrictHeatingWater,           !- Variable or Meter Name 8
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 8
-  HeatRejection:DistrictHeating,          !- Variable or Meter Name 9
+  HeatRejection:DistrictHeatingWater,     !- Variable or Meter Name 9
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 9
-  Humidifier:DistrictHeating,             !- Variable or Meter Name 10
+  Humidifier:DistrictHeatingWater,        !- Variable or Meter Name 10
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 10
-  HeatRecovery:DistrictHeating,           !- Variable or Meter Name 11
+  HeatRecovery:DistrictHeatingWater,      !- Variable or Meter Name 11
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 11
-  WaterSystems:DistrictHeating,           !- Variable or Meter Name 12
+  WaterSystems:DistrictHeatingWater,      !- Variable or Meter Name 12
   SumOrAverage,                           !- Aggregation Type for Variable or Meter 12
-  Cogeneration:DistrictHeating,           !- Variable or Meter Name 13
+  Cogeneration:DistrictHeatingWater,      !- Variable or Meter Name 13
   SumOrAverage;                           !- Aggregation Type for Variable or Meter 13
 
 Output:Table:Monthly,
@@ -158367,7 +158405,9 @@ Output:Table:Monthly,
   WaterSystems:Electricity,               !- Variable or Meter Name 13
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 13
   Cogeneration:Electricity,               !- Variable or Meter Name 14
-  ValueWhenMaximumOrMinimum;              !- Aggregation Type for Variable or Meter 14
+  ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 14
+  Refrigeration:Electricity,              !- Variable or Meter Name 15
+  ValueWhenMaximumOrMinimum;              !- Aggregation Type for Variable or Meter 15
 
 Output:Table:Monthly,
   Building Energy Performance - Natural Gas Peak Demand, !- Name
@@ -158388,35 +158428,35 @@ Output:Table:Monthly,
   ValueWhenMaximumOrMinimum;              !- Aggregation Type for Variable or Meter 7
 
 Output:Table:Monthly,
-  Building Energy Performance - District Heating Peak Demand, !- Name
+  Building Energy Performance - District Heating Water Peak Demand, !- Name
   2,                                      !- Digits After Decimal
-  DistrictHeating:Facility,               !- Variable or Meter Name 1
+  DistrictHeatingWater:Facility,          !- Variable or Meter Name 1
   Maximum,                                !- Aggregation Type for Variable or Meter 1
-  InteriorLights:DistrictHeating,         !- Variable or Meter Name 2
+  InteriorLights:DistrictHeatingWater,    !- Variable or Meter Name 2
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 2
-  ExteriorLights:DistrictHeating,         !- Variable or Meter Name 3
+  ExteriorLights:DistrictHeatingWater,    !- Variable or Meter Name 3
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 3
-  InteriorEquipment:DistrictHeating,      !- Variable or Meter Name 4
+  InteriorEquipment:DistrictHeatingWater, !- Variable or Meter Name 4
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 4
-  ExteriorEquipment:DistrictHeating,      !- Variable or Meter Name 5
+  ExteriorEquipment:DistrictHeatingWater, !- Variable or Meter Name 5
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 5
-  Fans:DistrictHeating,                   !- Variable or Meter Name 6
+  Fans:DistrictHeatingWater,              !- Variable or Meter Name 6
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 6
-  Pumps:DistrictHeating,                  !- Variable or Meter Name 7
+  Pumps:DistrictHeatingWater,             !- Variable or Meter Name 7
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 7
-  Heating:DistrictHeating,                !- Variable or Meter Name 8
+  Heating:DistrictHeatingWater,           !- Variable or Meter Name 8
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 8
-  Cooling:DistrictHeating,                !- Variable or Meter Name 9
+  Cooling:DistrictHeatingWater,           !- Variable or Meter Name 9
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 9
-  HeatRejection:DistrictHeating,          !- Variable or Meter Name 10
+  HeatRejection:DistrictHeatingWater,     !- Variable or Meter Name 10
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 10
-  Humidifier:DistrictHeating,             !- Variable or Meter Name 11
+  Humidifier:DistrictHeatingWater,        !- Variable or Meter Name 11
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 11
-  HeatRecovery:DistrictHeating,           !- Variable or Meter Name 12
+  HeatRecovery:DistrictHeatingWater,      !- Variable or Meter Name 12
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 12
-  WaterSystems:DistrictHeating,           !- Variable or Meter Name 13
+  WaterSystems:DistrictHeatingWater,      !- Variable or Meter Name 13
   ValueWhenMaximumOrMinimum,              !- Aggregation Type for Variable or Meter 13
-  Cogeneration:DistrictHeating,           !- Variable or Meter Name 14
+  Cogeneration:DistrictHeatingWater,      !- Variable or Meter Name 14
   ValueWhenMaximumOrMinimum;              !- Aggregation Type for Variable or Meter 14
 
 Output:Table:Monthly,
@@ -158472,10 +158512,10 @@ Output:Meter,
   Timestep;                               !- Reporting Frequency
 
 Output:Meter,
-  DistrictCooling:Facility,               !- Key Name
+  DistrictHeatingWater:Facility,          !- Key Name
   Timestep;                               !- Reporting Frequency
 
 Output:Meter,
-  DistrictHeating:Facility,               !- Key Name
+  DistrictCooling:Facility,               !- Key Name
   Timestep;                               !- Reporting Frequency
 

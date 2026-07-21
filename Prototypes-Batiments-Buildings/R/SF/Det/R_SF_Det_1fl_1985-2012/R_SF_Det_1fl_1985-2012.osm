@@ -1,7 +1,7 @@
 
 OS:Version,
-  {7dbd1b41-b9ea-4925-a559-a46bfe8b37be}, !- Handle
-  3.7.0;                                  !- Version Identifier
+  {c7e880ed-8c5e-4abb-9638-b7fcc799a6c5}, !- Handle
+  3.11.0;                                 !- Version Identifier
 
 OS:Schedule:Constant,
   {a420a4e6-ffe8-4bb3-a776-8069deaa0d30}, !- Handle
@@ -1847,7 +1847,16 @@ OS:Sizing:Zone,
   0.005,                                  !- Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
   HumidityRatioDifference,                !- Zone Latent Heating Design Supply Air Humidity Ratio Input Method
   ,                                       !- Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  0.005;                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  0.005,                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  ,                                       !- Zone Humidistat Dehumidification Set Point Schedule Name
+  ,                                       !- Zone Humidistat Humidification Set Point Schedule Name
+  ,                                       !- Design Zone Air Distribution Effectiveness in Cooling Mode
+  ,                                       !- Design Zone Air Distribution Effectiveness in Heating Mode
+  ,                                       !- Design Zone Secondary Recirculation Fraction {dimensionless}
+  ,                                       !- Design Minimum Zone Ventilation Efficiency {dimensionless}
+  Coincident,                             !- Sizing Option
+  None,                                   !- Heating Coil Sizing Method
+  1;                                      !- Maximum Heating Capacity To Cooling Load Sizing Ratio {W/W}
 
 OS:ZoneHVAC:EquipmentList,
   {8863ccd4-198d-4128-bb45-7ffe79f7e7ac}, !- Handle
@@ -1950,7 +1959,16 @@ OS:Sizing:Zone,
   0.005,                                  !- Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
   HumidityRatioDifference,                !- Zone Latent Heating Design Supply Air Humidity Ratio Input Method
   ,                                       !- Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  0.005;                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  0.005,                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  ,                                       !- Zone Humidistat Dehumidification Set Point Schedule Name
+  ,                                       !- Zone Humidistat Humidification Set Point Schedule Name
+  ,                                       !- Design Zone Air Distribution Effectiveness in Cooling Mode
+  ,                                       !- Design Zone Air Distribution Effectiveness in Heating Mode
+  ,                                       !- Design Zone Secondary Recirculation Fraction {dimensionless}
+  ,                                       !- Design Minimum Zone Ventilation Efficiency {dimensionless}
+  Coincident,                             !- Sizing Option
+  None,                                   !- Heating Coil Sizing Method
+  1;                                      !- Maximum Heating Capacity To Cooling Load Sizing Ratio {W/W}
 
 OS:ZoneHVAC:EquipmentList,
   {ea3e1871-9f65-45d9-873f-11844e6359d6}, !- Handle
@@ -2036,7 +2054,7 @@ OS:WeatherFile,
   -73.733,                                !- Longitude {deg}
   -5,                                     !- Time Zone {hr}
   36,                                     !- Elevation {m}
-  C:/Users/BeeAdmin/Documents/Onedrive-alternative/Archetypes/v1/weather_file/CAN-QC-MONTREAL-TRUDEAU-IAP-716270-2021-2022-WBT-S_jan-start.epw, !- Url
+  D:/Onedrive-alternative/Archetypes/automated_runs/v1/weather_file/CAN-QC-MONTREAL-TRUDEAU-IAP-716270-2021-2022-WBT-S_jan-start.epw, !- Url
   7550CE97,                               !- Checksum
   2021,                                   !- Start Date Actual Year
   Wednesday;                              !- Start Day of Week
@@ -2243,7 +2261,16 @@ OS:Sizing:Zone,
   0.005,                                  !- Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
   HumidityRatioDifference,                !- Zone Latent Heating Design Supply Air Humidity Ratio Input Method
   ,                                       !- Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  0.005;                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  0.005,                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  ,                                       !- Zone Humidistat Dehumidification Set Point Schedule Name
+  ,                                       !- Zone Humidistat Humidification Set Point Schedule Name
+  ,                                       !- Design Zone Air Distribution Effectiveness in Cooling Mode
+  ,                                       !- Design Zone Air Distribution Effectiveness in Heating Mode
+  ,                                       !- Design Zone Secondary Recirculation Fraction {dimensionless}
+  ,                                       !- Design Minimum Zone Ventilation Efficiency {dimensionless}
+  Coincident,                             !- Sizing Option
+  None,                                   !- Heating Coil Sizing Method
+  1;                                      !- Maximum Heating Capacity To Cooling Load Sizing Ratio {W/W}
 
 OS:ZoneHVAC:EquipmentList,
   {54a06084-fd18-404b-b36b-de0e4ff6cfe1}, !- Handle
@@ -2554,10 +2581,10 @@ OS:Schedule:Ruleset,
   {0326dc4b-b0eb-4151-bdd0-0374482dc878}; ! Winter Design Day Schedule Name
 
 OS:Schedule:Day,
-  {435f5abe-3c0c-451c-8099-c251472f1dbc}, ! Handle
-  Large Office Activity Default Schedule, ! Name
-  {db77c810-6d42-49c7-966e-9a928067165f}, ! Schedule Type Limits Name
-  ,                                       ! Interpolate to Timestep
+  {435f5abe-3c0c-451c-8099-c251472f1dbc}, !- Handle
+  Large Office Activity Default Schedule, !- Name
+  {db77c810-6d42-49c7-966e-9a928067165f}, !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
   7,                                      !- Hour 1
   0,                                      !- Minute 1
   70,                                     !- Value Until Time 1
@@ -2569,19 +2596,19 @@ OS:Schedule:Day,
   70;                                     !- Value Until Time 3
 
 OS:Schedule:Day,
-  {fcd5e29d-8008-4b46-bfa3-e11137385acd}, ! Handle
-  Large Office Activity Summer Design Day, ! Name
-  {db77c810-6d42-49c7-966e-9a928067165f}, ! Schedule Type Limits Name
-  ,                                       ! Interpolate to Timestep
+  {fcd5e29d-8008-4b46-bfa3-e11137385acd}, !- Handle
+  Large Office Activity Summer Design Day, !- Name
+  {db77c810-6d42-49c7-966e-9a928067165f}, !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
   24,                                     !- Hour 1
   0,                                      !- Minute 1
   150;                                    !- Value Until Time 1
 
 OS:Schedule:Day,
-  {0326dc4b-b0eb-4151-bdd0-0374482dc878}, ! Handle
-  Large Office Activity Winter Design Day, ! Name
-  {db77c810-6d42-49c7-966e-9a928067165f}, ! Schedule Type Limits Name
-  ,                                       ! Interpolate to Timestep
+  {0326dc4b-b0eb-4151-bdd0-0374482dc878}, !- Handle
+  Large Office Activity Winter Design Day, !- Name
+  {db77c810-6d42-49c7-966e-9a928067165f}, !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
   24,                                     !- Hour 1
   0,                                      !- Minute 1
   150;                                    !- Value Until Time 1
@@ -2660,7 +2687,7 @@ OS:Schedule:Day,
   {f95f4578-d248-45d7-b47a-a63cdd337f24}, !- Handle
   Schedule Day 1,                         !- Name
   {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
+  No,                                     !- Interpolate to Timestep
   8,                                      !- Hour 1
   0,                                      !- Minute 1
   18,                                     !- Value Until Time 1
@@ -2681,7 +2708,7 @@ OS:Schedule:Day,
   {66d87d2c-8aee-4da1-9356-c8b4cdb1e127}, !- Handle
   Schedule Day 2,                         !- Name
   {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
+  No,                                     !- Interpolate to Timestep
   24,                                     !- Hour 1
   0,                                      !- Minute 1
   25;                                     !- Value Until Time 1
@@ -2731,7 +2758,7 @@ OS:Schedule:Day,
   {e233e221-c724-494c-8082-a9c33033ed7c}, !- Handle
   Cycling PTAC Fan Mode Sch Default,      !- Name
   {8815b031-a64d-454b-a34c-46cbba5e59b6}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
+  No,                                     !- Interpolate to Timestep
   24,                                     !- Hour 1
   0,                                      !- Minute 1
   0;                                      !- Value Until Time 1
@@ -2747,6 +2774,7 @@ OS:ZoneHVAC:PackagedTerminalAirConditioner,
   Autosize,                               !- Supply Air Flow Rate During Cooling Operation {m3/s}
   Autosize,                               !- Supply Air Flow Rate During Heating Operation {m3/s}
   Autosize,                               !- Supply Air Flow Rate When No Cooling or Heating is Needed {m3/s}
+  Yes,                                    !- No Load Supply Air Flow Rate Control Set To Low Speed
   Autosize,                               !- Outdoor Air Flow Rate During Cooling Operation {m3/s}
   Autosize,                               !- Outdoor Air Flow Rate During Heating Operation {m3/s}
   Autosize,                               !- Outdoor Air Flow Rate When No Cooling or Heating is Needed {m3/s}
@@ -82138,6 +82166,8 @@ OS:People,
   {2cb78471-8fc1-4fa8-9c93-7c240c618a90}, !- Activity Level Schedule Name
   ,                                       !- Surface Name/Angle Factor List Name
   ,                                       !- Work Efficiency Schedule Name
+  ClothingInsulationSchedule,             !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
   ,                                       !- Clothing Insulation Schedule Name
   ,                                       !- Air Velocity Schedule Name
   0.5;                                    !- Multiplier
@@ -82152,7 +82182,7 @@ OS:Schedule:Day,
   {8ea98d1e-7904-4d03-b73b-683935cb6a53}, !- Handle
   Schedule Day 29,                        !- Name
   {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
+  No,                                     !- Interpolate to Timestep
   8,                                      !- Hour 1
   0,                                      !- Minute 1
   1,                                      !- Value Until Time 1
@@ -82202,7 +82232,7 @@ OS:Schedule:Day,
   {82e1e78a-1b62-42de-89c9-946f0ed66395}, !- Handle
   Schedule Day 30,                        !- Name
   {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
+  No,                                     !- Interpolate to Timestep
   8,                                      !- Hour 1
   0,                                      !- Minute 1
   1,                                      !- Value Until Time 1
@@ -82356,6 +82386,8 @@ OS:People,
   {2cb78471-8fc1-4fa8-9c93-7c240c618a90}, !- Activity Level Schedule Name
   ,                                       !- Surface Name/Angle Factor List Name
   ,                                       !- Work Efficiency Schedule Name
+  ClothingInsulationSchedule,             !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
   ,                                       !- Clothing Insulation Schedule Name
   ,                                       !- Air Velocity Schedule Name
   0.5;                                    !- Multiplier
@@ -82469,7 +82501,8 @@ OS:SpaceInfiltration:DesignFlowRate,
   0.606,                                  !- Constant Term Coefficient
   0.03636,                                !- Temperature Term Coefficient
   0.1177,                                 !- Velocity Term Coefficient
-  0;                                      !- Velocity Squared Term Coefficient
+  0,                                      !- Velocity Squared Term Coefficient
+  Outdoor;                                !- Density Basis
 
 OS:Construction,
   {09ed9acc-6475-4d71-ae48-0758e7f6a031}, !- Handle
@@ -91520,7 +91553,7 @@ OS:Schedule:Day,
   {e6bf9022-4ef4-4d65-8a3b-1bba1b9c3f87}, !- Handle
   Schedule Day 40,                        !- Name
   {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
+  No,                                     !- Interpolate to Timestep
   24,                                     !- Hour 1
   0,                                      !- Minute 1
   0.3;                                    !- Value Until Time 1
@@ -92141,7 +92174,8 @@ OS:SpaceInfiltration:DesignFlowRate,
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
   ,                                       !- Velocity Term Coefficient
-  ;                                       !- Velocity Squared Term Coefficient
+  ,                                       !- Velocity Squared Term Coefficient
+  Outdoor;                                !- Density Basis
 
 OS:ShadingSurfaceGroup,
   {2536ce1b-700e-444c-884a-0a0316a35a06}, !- Handle
@@ -92798,35 +92832,35 @@ OS:StandardsInformation:Material,
   {6b819657-9b2e-43fd-b668-83d15645ae7f}; !- Material Name
 
 OS:Output:Variable,
-  {aed9852c-10a5-4e05-b5dd-e91b526bb281}, !- Handle
+  {f1ba6d28-043f-4667-94e7-123929a54d73}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {2ada48ef-4307-44d0-b26f-71317c398480}, !- Handle
+  {cce3217a-2a4b-4540-87ff-7f8c76892b45}, !- Handle
   Output Variable 2,                      !- Name
   *,                                      !- Key Value
   Site Outdoor Air Drybulb Temperature,   !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {a3f5b55d-47b5-41bc-acdd-eb3728da124c}, !- Handle
+  {ef52f5e5-9d8b-4b86-a451-a963016d0c0f}, !- Handle
   Output Variable 3,                      !- Name
   *,                                      !- Key Value
   Site Wind Speed,                        !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {5e2e3af6-28c1-43d5-a091-82e215445ec8}, !- Handle
+  {53a60cd8-c4cb-4a3b-8f73-44bf38163563}, !- Handle
   Output Variable 4,                      !- Name
   GroundFloor MainFloors_HWElectricConsumption, !- Key Value
   Electric Equipment Electricity Energy,  !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {4b129b44-b66e-4b08-ba3c-fc516bd87faf}, !- Handle
+  {f9aa1077-3e61-4a91-b5c8-9f3720bad872}, !- Handle
   Output Variable 5,                      !- Name
   Basement Basement_HWElectricConsumption, !- Key Value
   Electric Equipment Electricity Energy,  !- Variable Name
